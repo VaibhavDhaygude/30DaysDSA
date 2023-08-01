@@ -14,12 +14,12 @@ int main(){
                 temp=arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
-            }5
+            }
         }
     }
     for(int i=0;i<n;i++){
         cout<<arr[i]<<endl;
     }
-    cout<<"Kth Largest Number is: "<<arr[k-1];
+    cout<<k<<" Largest Number is: "<<arr[k-1];
 
 }
