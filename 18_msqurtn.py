@@ -1,7 +1,9 @@
 import math
 def cal(m,n):
     #x^n=m -> n*logx=logm
-    ans=math.log(m)/math.log(n)
+    ans=math.exp(math.log(m)/n)
+    ans=round(ans,4)
+    # print(ans)
     if int(ans)==ans:
         return ans
     else:
