@@ -2,7 +2,7 @@ import math
 def cal(stk,newstk):
     while(stk!=[]):
         
-        if len(newstk)==math.ceil((len(stk))/2):
+        if len(newstk)+1==len(stk):
             stk.pop(0)
             continue
         else:
